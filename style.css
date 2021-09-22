@@ -1,0 +1,76 @@
+
+/* use '*' to add properties to whole document*/
+*
+{
+    padding: 0;
+    margin: 0S;
+}
+
+body
+{
+    background-color: #9aedff;
+}
+
+
+.maincontainer
+{
+    /* to Center a div (there are many ways you can use any)*/
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   margin: auto;
+    /*For styling*/
+   width: 300px;
+   background-color: white;
+   height: 300px;
+     /*For making a circle*/
+     border-radius: 50%;
+     /*For border -- Syntax -> border: thickness Color type;*/
+     border: 6px #9898fd solid;
+    /*For shadow -- Syntax ->  box-shadow: x y blur spread*/
+    box-shadow: 3px 8px 22px 1px;
+
+}
+ 
+/*Everything inside maincontainer should have position: relative; to avoid elements overlapping*/
+img
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    /*For making a circle*/
+    border-radius: 50%;
+    /*Setting location*/
+    left: 100px;
+    top: 50px;
+}
+
+h1
+{
+    
+    position: relative;
+    left: 105px;
+    top: 30px;
+
+
+}
+
+button
+{
+
+    position: relative;
+    background-color: black;
+       /*Changing text color*/
+    color: white;
+         /*add padding (Space from inside)*/
+         padding: 5px;
+         width: 140px;
+         border: none;
+         border-radius: 20px;
+         left: 80px;
+         top: 10px;
+
+    
+}
